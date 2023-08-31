@@ -44,10 +44,7 @@ colorized_echo green "The server was successfully updated . . .\n"
 PACKAGES=(
     mysql-server 
     apache2 
-    php-zip 
-    php-gd 
-    php-json 
-    php-curl 
+ 
 )
 
 colorized_echo green " Installing the necessary packages. . ."
