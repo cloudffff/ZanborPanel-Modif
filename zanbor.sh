@@ -43,7 +43,6 @@ colorized_echo green "The server was successfully updated . . .\n"
 # install packages !
 PACKAGES=(
     mysql-server 
-    php-mbstring 
     apache2 
     php-zip 
     php-gd 
