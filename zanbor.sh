@@ -43,7 +43,6 @@ colorized_echo green "The server was successfully updated . . .\n"
 # install packages !
 PACKAGES=(
     mysql-server 
-    libapache2-mod-php 
     lamp-server^ 
     php-mbstring 
     apache2 
@@ -83,7 +82,6 @@ sudo systemctl restart apache2
 wait
 
 sudo apt-get install -y php-soap
-sudo apt-get install libapache2-mod-php
 
 # service proccessing !
 sudo systemctl enable mysql.service
